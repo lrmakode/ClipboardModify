@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Clipboard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/Clipboard.res" /d "NDEBUG" /d "_AFXDLL" "F:\Developpements\VisualCpp\Tools\ClipBoard\Clipboard.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Clipboard.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Developpements\VisualCpp\Tools\ClipBoard\ChildView.cpp"
+"F:\Developpements\VisualCpp\Tools\ClipBoard\Clipboard.cpp"
+"F:\Developpements\VisualCpp\Tools\ClipBoard\DataRd.cpp"
+"F:\Developpements\VisualCpp\Tools\ClipBoard\MainFrm.cpp"
+"F:\Developpements\VisualCpp\Tools\ClipBoard\Options.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Clipboard.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Developpements\VisualCpp\Tools\ClipBoard\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB2.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Clipboard.pdb" /machine:I386 /out:"Release/Clipboard.exe" 
+.\Release\ChildView.obj
+.\Release\Clipboard.obj
+.\Release\DataRd.obj
+.\Release\MainFrm.obj
+.\Release\Options.obj
+.\Release\StdAfx.obj
+.\Release\Clipboard.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildView.cpp
+Clipboard.cpp
+DataRd.cpp
+MainFrm.cpp
+Options.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Clipboard.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
